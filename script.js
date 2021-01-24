@@ -9,5 +9,11 @@ const redPara = document.createElement('p');
     redPara.textContent = "Hey I'm red!"; 
     redPara.style.color = 'red'
 
+const  blueh3= document.createElement('h3');
+    blueh3.classList.add('redPara');
+    blueh3.textContent = "Hey I'm blue h3!"; 
+    blueh3.style.color = 'blue'
+
 container.appendChild(content);
 container.appendChild(redPara);
+container.appendChild(blueh3);
